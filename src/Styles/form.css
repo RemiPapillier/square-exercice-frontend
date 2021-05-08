@@ -1,0 +1,44 @@
+.classic-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.classic-form label {
+    text-align: left;
+    display: block;
+}
+.classic-form h2 {
+    font-size: 22px;
+    color: #062161;
+    margin-bottom: 30px;
+}
+
+.classic-form h1 {
+    color: #062161;
+}
+
+.classic-form input, .classic-form textarea, .classic-form select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+.classic-form button {
+    background: #062161;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.result {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid 1px #062161;
+}
