@@ -15,7 +15,7 @@ const SelectForm = () => {
         e.preventDefault();
         setIsPending(true);
 
-        fetch('https://remi-square-backend.herokuapp.com/api/occupancy?sensor='+sensor+'&atInstant='+time)
+        fetch('https://desolate-hamlet-52537.herokuapp.com/https://remi-square-backend.herokuapp.com/api/occupancy?sensor='+sensor+'&atInstant='+time)
             .then(res=>{
                 if(res.ok){
                     return res.json()

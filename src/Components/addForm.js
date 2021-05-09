@@ -17,7 +17,7 @@ const AddForm = () => {
 
         setIsPending(true);
 
-        fetch('https://remi-square-backend.herokuapp.com/api/webhook', {
+        fetch('https://desolate-hamlet-52537.herokuapp.com/https://remi-square-backend.herokuapp.com/api/webhook', {
             method: 'POST',
             body: JSON.stringify(counter)
         }).then(res=>{
