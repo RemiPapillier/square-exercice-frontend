@@ -15,7 +15,7 @@ const SelectForm = () => {
         e.preventDefault();
         setIsPending(true);
 
-        fetch('/api/occupancy?sensor='+sensor+'&atInstant='+time)
+        fetch('https://remi-square-backend.herokuapp.com/api/occupancy?sensor='+sensor+'&atInstant='+time)
             .then(res=>{
                 if(res.ok){
                     return res.json()

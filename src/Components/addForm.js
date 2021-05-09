@@ -17,7 +17,7 @@ const AddForm = () => {
 
         setIsPending(true);
 
-        fetch('/api/webhook', {
+        fetch('https://remi-square-backend.herokuapp.com/api/webhook', {
             method: 'POST',
             body: JSON.stringify(counter)
         }).then(res=>{
