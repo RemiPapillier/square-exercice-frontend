@@ -1,6 +1,8 @@
 # Square Sense frontend exercise React App
 
-## Follow the following instructions to run the app
+## Frontend running on https://remi-square-frontend.netlify.app/
+
+## Follow the instructions to run the app locally!
 
 ### Run backend app
 
